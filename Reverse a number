@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,f=0;
+    cin >> n;
+    while(n!=0) f = (f*10)+(n%10),n/=10;
+    cout << f << endl;
+    return 0;
+}
